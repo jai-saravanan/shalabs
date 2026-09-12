@@ -785,20 +785,24 @@ export default function Home() {
             margin: "0 auto",
             padding: "clamp(40px,6vw,68px) clamp(16px,4vw,40px) 30px",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit,minmax(170px,1fr))",
-            gap: "clamp(26px,4vw,52px)",
+            gridTemplateColumns: "minmax(220px,1.6fr) repeat(2,minmax(150px,1fr))",
+            gap: "clamp(28px,4vw,64px)",
           }}
         >
-          <div style={{ maxWidth: 260 }}>
+          <div>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
               <Image src="/shabytes-icon-64.png" alt="" width={28} height={28} style={{ borderRadius: 7 }} />
               <span style={{ font: `600 17px/1 ${outfit}`, color: "#fff" }}>ShaBytes</span>
             </div>
-            <div style={{ font: `400 13.5px/1.55 ${dmSans}`, color: "#a8b4af" }}>Learn Cloud by Building It.</div>
+            <div style={{ maxWidth: 260, font: `400 13.5px/1.55 ${dmSans}`, color: "#a8b4af" }}>
+              Learn Cloud by Building It.
+            </div>
           </div>
           <div>
-            <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 16 }}>PRODUCT</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 11, font: `400 13.5px/1.3 ${dmSans}` }}>
+            <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 18 }}>
+              PRODUCT
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 12, font: `400 13.5px/1.3 ${dmSans}` }}>
               <a href="#product" style={{ color: "#c4cfca" }}>Platform</a>
               <a href="#courses" style={{ color: "#c4cfca" }}>Courses</a>
               <a href="#labs" style={{ color: "#c4cfca" }}>Labs</a>
@@ -806,8 +810,10 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 16 }}>CONTACT</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 11, font: `400 13.5px/1.3 ${dmSans}` }}>
+            <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 18 }}>
+              CONTACT
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 12, font: `400 13.5px/1.3 ${dmSans}` }}>
               <a href="mailto:support@shabytes.com" style={{ color: "#c4cfca" }}>support@shabytes.com</a>
             </div>
           </div>
@@ -820,7 +826,8 @@ export default function Home() {
             borderTop: "1px solid #1d2a25",
             display: "flex",
             flexWrap: "wrap",
-            gap: 14,
+            gap: "10px 24px",
+            alignItems: "center",
             justifyContent: "space-between",
             font: `400 11.5px/1.5 ${mono}`,
             color: "#8d9b95",
