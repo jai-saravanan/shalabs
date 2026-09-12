@@ -806,13 +806,6 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 16 }}>LEGAL</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 11, font: `400 13.5px/1.3 ${dmSans}` }}>
-              <a href="#top" style={{ color: "#c4cfca" }}>Privacy Policy</a>
-              <a href="#top" style={{ color: "#c4cfca" }}>Terms of Service</a>
-            </div>
-          </div>
-          <div>
             <div style={{ font: `500 10.5px/1 ${mono}`, letterSpacing: ".12em", color: "#8d9b95", marginBottom: 16 }}>CONTACT</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 11, font: `400 13.5px/1.3 ${dmSans}` }}>
               <a href="mailto:support@shabytes.com" style={{ color: "#c4cfca" }}>support@shabytes.com</a>
